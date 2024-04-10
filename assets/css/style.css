@@ -1,0 +1,183 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul { list-style: none; padding-left: 5px; }
+a { color:blue; text-decoration: none;}
+.bar {
+    background-color: #f9f9fb;
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.footer {
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;
+    padding-left: 1rem;
+}
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+}
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+}
+
+header {
+    display: flex;
+    flex: 1;
+}
+.logo1 {
+    flex: 1;
+    margin-left: 20px;
+}
+.logo2 {
+    flex: 11;
+    position: absolute;
+    margin-left: 90px;
+}
+.logo2_1 {
+    position: absolute;
+    top: 10px;
+}
+.logo2_2 {
+    position: absolute;
+    top: 30px;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.subtitle {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 25px;
+}
+.articleOriginal {
+    margin-top: -10px;
+    margin-bottom: 0px;
+}
+.serie1 {
+    display: flex;
+    flex: 1;
+}
+.image1 {
+    flex: 1;
+}
+.image1_1 {
+    width: 250px;
+    margin-left: -40px;
+}
+.descriptionImage1 {
+    text-align: left;
+    margin-left: -40px;
+    font-size: 13.5px;
+}
+.description1 {
+    flex: 2;
+    margin-top: -7px;
+}
+.description2 {
+    margin-top: 10px;
+}
+.image1_2 {
+    width: 230px;
+    margin-left: -40px;
+}
+.description3 {
+    margin-top: 5px;
+}
+.tableFilms {
+    border-style: solid;
+    border-color: black;
+    border-width: 1.5px;
+    margin-left: 0px;
+    width: 670px;
+    height: 220px;
+    text-align: left;
+    background-color: white;
+}
+table thead tr th {
+    background-color: rgb(192, 194, 194);
+    height: 30px;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    border-width: 1.5px;
+}
+table tbody tr td {
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 1.5px;
+}
+.numberTable {
+    text-align: center;
+}
+.launchTable {
+    text-align: center;
+}
+.description4 {
+    flex: 4;
+    margin-top: -20px;
+}
+.image1_3 {
+    height: 230px;
+    margin-top: -15px;
+}
+.descriptionImage2 {
+    text-align: left;
+    font-size: 13.5px;
+}
+.description5 {
+    margin-top: -10px;
+    margin-bottom: 25px;
+}
+.options {
+    list-style: disc;
+}
+.titleAnchor {
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(217, 241, 248);
+}
+.anchorContent {
+    display: flex;
+    flex: 1;
+}
+.anchorContentTitle {
+    flex: 1;
+    font-weight: bold;
+    font-size: 13.5px;
+    margin-top: -12px;
+}
+.anchorContentItems {
+    flex: 2;
+    font-size: 13.5px;
+}
+.anchorSite {
+    text-align: center;
+    font-size: 13.5px;
+    margin-top: -7px;
+}
+.footerDescription {
+    font-size: 13.5px;
+}
+nav ul {
+    display: flex;
+    font-size: 13.5px;
+    margin-left: -4px;
+}
+nav ul li {
+    padding-right: 15px;
+}
